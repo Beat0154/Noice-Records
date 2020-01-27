@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Karu;
+  src: url(fonts/KaruExtraBoldItalic/karuextrabolditalic.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline-color: #DFF221;
+}
+body{
+    background-color: #3F24fa;
+    background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
+}
+.maintitle{
+    margin-top: 2rem;
+    color: white;
+    font-family: Karu, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: -5px 0px 0px Purple;
+}
+.soundcloud{
+    width: 50%;
+    margin: 200px auto 0px;
+    display: block
+}
+.icons{
+    text-align: center;
+    margin:  10rem auto;
+    display: block;
+}
+.instagram:hover, .youtube:hover{
+    fill: #DFF221;
+}
+form{
+    max-width: 500px;
+    margin: 0px auto 250px;
+}
+textarea, .forminput{
+    width: 500px;
+    min-width: 500px;
+    max-width: 500px;
+    max-height: 250px;
+}
+.label{
+    color: white;
+    font-family: karu, sans-serif;
+}
+.forminput{
+    width: 484px;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-family: Karu;
+    margin-bottom: 2rem;
+    color: #3F24fa;
+/*    text-shadow: -1px 0px 0px Purple;*/
+}
+.forminput:active, .forminput:focus{
+    background-color: #DFF221;
+}
+input[type="submit"]{
+    color: #DFF221;
+    background-color: transparent;
+    border: 7px solid #DFF221;
+    border-radius: 0.3rem;
+    font-size: 2rem;
+    font-family: Karu;
+    font-weight: 400;
+    padding: 0.3rem 4rem;
+    margin: auto;
+    display: block;
+}
+input[type="submit"]:hover,input[type="submit"]:active{
+    background-color: #DFF221;
+    color: #3F24fa;
+    cursor: pointer;
+}
+.disabled{
+    filter: opacity(0.1);
+}
+@media only screen and (max-width: 1000px){
+    .soundcloud{
+        width: 90%;
+    }
+    form{
+        max-width: 300px;
+    }
+    .forminput, textarea{
+        min-width: 284px !important;
+        max-width: 284px !important;
+        width: 284px !important;
+    }
+}
