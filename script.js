@@ -6,7 +6,7 @@ function disableButton(){
     if(name.value==""||email.value==""||message.value=="")
     {
         submit.ClassName = "disabled";
-        submit.disabled = "disabeld";
+        submit.disabled = "disabled";
     }else{
         submit.className = "";
         submit.disabled = "";
