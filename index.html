@@ -81,11 +81,11 @@
     
     <form method="POST" action="https://formspree.io/noicerecords@gmail.com">
         <label for="Name" class="label">Name</label><br/>
-        <input oninput="disableButton()" type="text" id="name" class="forminput">
+        <input onfocus="disableButton()" type="text" id="name" class="forminput">
         <label for="Email" class="label">Email</label><br/>
-        <input oninput="disableButton()" type="text" id="email" class="forminput">
+        <input onfocus="disableButton()" type="text" id="email" class="forminput">
         <label for="Message" class="label">Message</label><br/>
-        <textarea oninput="disableButton()" id="message" class="forminput"></textarea>
+        <textarea onfocus="disableButton()" id="message" class="forminput"></textarea>
         <input id="submit" class="disabled" disabled="disabled" type="submit"/>
     </form>
     <script src="script.js"></script>
